@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./scripts/app.js" type="module"></script>
+    <link rel="stylesheet" href="./styles.css">
+    <title>Primer parcial</title>
+</head>
+<body>
+    <header>
+        <div class="centrador">
+
+            <img class="logo" src="./assets/logo.png" alt="Pisteando">
+
+            <nav>
+                <a href="#">Nosotros</a>
+                <a href="#">Anuncios</a>
+                <a href="#">Blog</a>
+                <a href="#">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="centrador">
+        <h1>Administracion</h1>
+    </div>
+    <main class="main">
+        <section class="form-container">
+            <form action="submit" id="elForm">
+                <fieldset>
+                    <legend>Informacion del anuncio</legend>
+                    <br>
+                    <legend>TITULO:</legend>
+                    <input type="text" id="titulo" placeholder="Titulo" autocomplete="off" required>
+                    </br>
+                    <legend>TRANSACCION:</legend>
+                    <input type="radio" name="transaccion" id="transaccion" value="venta">VENTA
+                    <input type="radio" name="transaccion" id="transaccion" value="alquiler" required>ALQUILER
+                    </br>
+                    <legend>DESCRIPCION:</legend>
+                    <input type="text" id="descripcion" placeholder="Descripcion">
+                    </br>
+                    <legend>PRECIO:</legend>
+                    <input type="number" id="precio" min="0" placeholder="Precio" required>
+                    <br>
+                    <div class="anuncioAutoInputs">
+                    
+                            <img src="./assets/car_door_icon_138811.ico" alt="" class="iconos">
+                            <input type="number" id="puertas" placeholder="Puertas" id="puertas">
+                        
+                    
+                            <img src="./assets/speed_13521.ico" alt="" class="iconos">
+                            <input type="number" id="kms" placeholder="KMs" id="kms">
+                        
+                    
+                            <img src="./assets/engine_theapplication_2927.ico" alt="" class="iconos">
+                            <input type="number" id="potencia" placeholder="Potencia" id="potencia">
+                        
+                    </div>
+                </fieldset>
+                </br>
+                <input type="hidden" name="id" value="">
+                <input type="submit" value="Alta Anuncio">
+            </form>
+        </section>
+        <section class="table-container"></section>
+    </main>
+
+    <footer>
+        <nav>
+            <a href="#">Nosotros</a>
+            <a href="#">Anuncios</a>
+            <a href="#">Blog</a>
+            <a href="#">Contacto</a>
+        </nav>
+        <span>Todos los derechos resevados 2022 &reg</span>
+    </footer>
+</body>
+</html>

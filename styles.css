@@ -1,0 +1,123 @@
+body{
+    margin: 0px;
+}
+header {
+    width: 100vw;
+    overflow: hidden;
+    background: rgb(20, 87, 20);
+    margin-bottom: 5px;   
+}
+footer {
+    width: 100vw;
+    overflow: hidden;
+    background: rgb(20, 87, 20);
+    margin-bottom: 5px;   
+    position: absolute;
+    bottom: 0vh;
+}
+ .centrador{
+     margin: 1%;
+     overflow: hidden;
+     text-align: center;
+ }
+
+ header .logo{
+     max-height: 5vw;
+     margin-top: 0.5em;
+     margin-bottom: 0.5em;
+     float: left;
+ }
+ header nav{
+    line-height: 100px;
+    float: right;
+ }
+ header nav a{
+     display: inline-block;
+     color: #fff;
+     text-decoration: none;
+     padding: 10px 20px;
+     line-height: normal;
+     font-size: 20px;
+     font-weight: bold;
+     -webkit-transition: all 500ms ease;
+     -o-transition: all 500ms ease;
+     transition: all 500ms ease;
+     border-radius: 50px;
+ }
+ .anuncioAutoInputs{
+    display: inline-block;
+    line-height: normal;
+    width: 100%;
+ }
+ header nav a:hover{
+     background: #fff;
+     color: rgb(20, 87, 20);
+ }
+ footer nav{
+    line-height: 100px;
+     float: left;
+ }
+ footer nav a{
+     display: inline-block;
+     color: #fff;
+     text-decoration: none;
+     padding: 10px 20px;
+     line-height: normal;
+     font-size: 20px;
+     font-weight: bold;
+     -webkit-transition: all 500ms ease;
+     -o-transition: all 500ms ease;
+     transition: all 500ms ease;
+     border-radius: 50px;
+ }
+ footer nav a:hover{
+     background: #fff;
+     color: rgb(20, 87, 20);
+ }
+ footer span{
+    line-height: 100px;
+    float: right;
+    color: white;
+ }
+ .iconos {
+     height: 30px;
+ }
+
+ 
+ th, td{
+    border: 1px solid black; 
+    border-collapse: collapse;
+    padding: 5px;
+}
+td{
+    text-align: center;
+}
+table{
+    border: 1px solid green; 
+    border-collapse: collapse;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 100%;
+}
+.colorOscuro{
+    background-color: darkgreen;
+}
+.colorClaro{
+    background-color: antiquewhite;
+}
+tbody tr:hover{
+    cursor: pointer;
+    background-color: gray;
+    user-select: none;
+}
+thead{
+    background-color: white;
+}
+.container{
+    padding-top: 10px;
+    width: 90%;
+    background-color: blueviolet;
+}
+.table-container{
+    width: 100%;
+}
